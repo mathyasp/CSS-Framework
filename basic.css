@@ -152,3 +152,27 @@ input[type="radio"] {
 input[type="radio"] + label {
   margin-right: var(--u-spacingMd);
 }
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--c-borderRadius);
+}
+
+/* Code */
+pre, code {
+  background: var(--t-colorDark);
+  color: var(--t-colorLight);
+  padding: var(--u-spacingXs);
+  border-radius: var(--c-borderRadius);
+  overflow-x: auto;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--t-colorPrimary);
+  padding-left: var(--u-spacingMd);
+  margin: var(--u-spacingMd) 0;
+  font-style: italic;
+}
