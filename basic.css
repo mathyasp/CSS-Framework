@@ -176,3 +176,22 @@ blockquote {
   margin: var(--u-spacingMd) 0;
   font-style: italic;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  html { font-size: 14px; }
+  body { padding: var(--u-spacingSm); }
+  table { overflow-x: auto; display: block; }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    color: black;
+    background: white;
+  }
+  
+  a { text-decoration: underline; }
+  
+  button { display: none; }
+}
