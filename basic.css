@@ -1,0 +1,34 @@
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Theme Properties */
+:root {
+  /* Colors */
+  --t-colorPrimary: #2563eb;
+  --t-colorSecondary: #475569;
+  --t-colorSuccess: #16a34a;
+  --t-colorWarning: #ea580c;
+  --t-colorDanger: #dc2626;
+  --t-colorLight: #f8fafc;
+  --t-colorDark: #0f172a;
+  
+  /* Typography */
+  --t-fontFamily: system-ui, -apple-system, sans-serif;
+  --t-fontSizeBase: 1rem;
+  --t-lineHeight: 1.5;
+  
+  /* Utilities */
+  --u-spacingXs: 0.25rem;
+  --u-spacingSm: 0.5rem;
+  --u-spacingMd: 1rem;
+  --u-spacingLg: 2rem;
+  
+  /* Component Defaults */
+  --c-borderRadius: 0.25rem;
+  --c-borderWidth: 1px;
+  --c-transition: 200ms ease-in-out;
+}
