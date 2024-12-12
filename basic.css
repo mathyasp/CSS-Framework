@@ -48,3 +48,17 @@ body {
   margin: 0 auto;
   padding: var(--u-spacingMd);
 }
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: var(--u-spacingMd);
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+
+p, ul, ol, dl {
+  margin-bottom: var(--u-spacingMd);
+}
