@@ -32,3 +32,19 @@
   --c-borderWidth: 1px;
   --c-transition: 200ms ease-in-out;
 }
+
+/* Base Styles */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--t-fontFamily);
+  line-height: var(--t-lineHeight);
+  color: var(--t-colorDark);
+  background: var(--t-colorLight);
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: var(--u-spacingMd);
+}
